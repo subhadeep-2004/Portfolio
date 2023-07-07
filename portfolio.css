@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    margin: 0;
+
+}
+h1{
+    margin: 0;
+    padding:100px 0 0 0;
+    font-family: "Sacramento", cursive;
+    font-size: 5.5rem;
+    color: #5A96E3;
+    font-weight: 500;
+   
+}
+#cloud-1{
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+#cloud-2{
+    position: absolute;
+    
+}
+
+#container{
+    background-color: #e4f9f5;
+    text-align: center;
+}
+.mountain{
+    margin-top:  60px;
+}
+
+.profile-image{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+h2{
+font-size: 2rem;
+font-family: 'Libre Baskerville', serif;
+font-weight: 100;
+color: #5A96E3;
+}
+h3{
+font-size: 1rem;
+font-family: 'Libre Baskerville', serif;
+font-weight: 20;
+color: #5A96E3;
+
+}
+.hello{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.para{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+p{  
+font-family: 'Libre Baskerville', serif;
+max-width: 400px;
+}
+/* For feature icon  */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    background-color: #5A96E3;
+    
+
+}
+hr{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    max-width: 300px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#box3{
+    margin-top: 60px;
+}
+#footer{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color:  #e4f9f5;
+
+}
+
+
+@media(max-width:700px){
+    .mountain{
+        max-height: 200px;
+        max-width: 250px;
+    }
+    .bird{
+        max-height: 35px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size:1rem
+    }
+    .cloud{
+        max-width: 50px;
+    }
+    #cloud-2{
+        margin-left: 250px;
+        margin-top: 15px;
+       
+    }
+}
